@@ -3,7 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <div className='react-root'>
+      <div className='centered'>
+        <h1>Color Picker</h1>
+        <button className='red'>red</button>
+        <button className='blue'>blue</button>
+        <button className='yellow'>yellow</button>
+      </div>
+    </div>
   );
 }
 
