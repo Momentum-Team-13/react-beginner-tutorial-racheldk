@@ -12,15 +12,6 @@ function App() {
                 <ColorChangeButton color='blue' setColor={setColor} />
                 <ColorChangeButton color='yellow' setColor={setColor} />
                 {/* color is the name of the prop, its value comes after the = */}
-                <button className="red" onClick={() => setColor("red")}>
-                    red
-                </button>
-                <button className="blue" onClick={() => setColor("blue")}>
-                    blue
-                </button>
-                <button className="yellow" onClick={() => setColor("yellow")}>
-                    yellow
-                </button>
             </div>
         </div>
     );
